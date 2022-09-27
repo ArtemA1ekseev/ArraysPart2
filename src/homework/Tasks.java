@@ -16,9 +16,8 @@ public class Tasks {
         System.out.println("Задание 2.");
         int maxArr = -1;
         for (int i = 0; i < arr.length; i++) {
-            final int current = arr[i];
-            if (current > maxArr) {
-                maxArr = current;
+            if (arr[i] > maxArr) {
+                maxArr = arr[i];
             }
         }
         System.out.println("Максимальная сумма трат за день составила " + maxArr + " рублей.");
